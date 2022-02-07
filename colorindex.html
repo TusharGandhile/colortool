@@ -1,0 +1,26 @@
+<! doctype html>
+<html>
+    <head>
+        <title>Color tool </title>
+        <link rel="stylesheet" href="color.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1 class="title">Color Lighten/Darken</h1>
+    
+            <label for="hex">Enter Hex-color:</label> <br>
+            <input type="text" id="hex-input" name="color" placeholder="#000000" value="#44425e"><br>
+            <label for="slider" id="slider" >range:</label><br>
+            <input type="range" id="my-slider" min="0" max="100" value="50">
+
+            <p>Input color:</p>
+            <div id="input-color" class="box"></div>
+
+            <p id="alteredcolortext">Altered color:</p>
+            <div id="altercolor" class="box"></div>
+
+    </div>
+        <!--comment-->
+        <script src="color.js"></script>
+    </body>
+</html>
